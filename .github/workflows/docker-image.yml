@@ -6,7 +6,7 @@ on:
     branches:
       - master
       - develop
-#This workflow will be executed also when creating PR's
+#This workflow will be executed also when creating PR'ss
   pull_request:
     types: [opened, synchronize, reopened]
 
